@@ -1,0 +1,19 @@
+dir:
+  outdir: /path/to/output/directory
+  raw_datadir: /path/to/fastq/files/directory
+  cpat:
+    training-data:
+      cds: /path/to/cpat/Human_coding_transcripts_CDS.fa.gz
+      ncrna: /path/to/cpat/Human_noncoding_transcripts_RNA.fa.gz
+      logitmodel: /path/to/cpat/Human_logitModel.RData
+      hexamer: /path/to/cpat/Human_Hexamer.tsv
+
+star_index: /path/to/star/aligner/index
+reference_gtf: /path/to/reference/gtf
+ref_genome: /path/to/ref/genome/fasta
+scripts: /path/to/lnc_analysis2/repo/scripts
+
+cpat_filter_cutoff: 0.4
+
+quant:
+  stringtie_dir: /path/to/GTF_nc_transcript_filtered
